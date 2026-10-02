@@ -1,0 +1,59 @@
+AI E-Commerce Assistant
+
+Student:
+Hariharan B
+
+Register Number:
+2023103704
+
+Project Type:
+IoC - Scalable Enterprise Architectural Deployments of Agentic AI Solutions
+
+Application:
+AI E-Commerce Assistant / AI E-Commerce Intelligence System
+
+Purpose:
+Build a scalable multi-agent e-commerce platform that demonstrates how specialized AI agents can collaborate to process orders, detect fraud, analyze customers, analyze business performance and generate reports.
+
+Main Agents:
+1. Order Agent
+2. Fraud Detection Agent
+3. Customer Analysis Agent
+4. Analysis Agent
+5. Report Agent
+6. Orchestrator Agent
+
+Frontend:
+React + TypeScript + Vite + Tailwind CSS
+
+Backend:
+Node.js + Express.js
+
+Architecture:
+Frontend
+   |
+   v
+Backend REST API
+   |
+   v
+Orchestrator Agent
+   |
+   +--> Order Agent
+   +--> Fraud Detection Agent
+   +--> Customer Analysis Agent
+   +--> Analysis Agent
+   +--> Report Agent
+   |
+   v
+Unified Business Result
+
+Current Status:
+Frontend completed.
+Backend completed.
+Multi-agent workflow completed.
+AI Assistant interface completed.
+Documentation in progress.
+
+Demo:
+Frontend: http://localhost:5173/
+Backend: http://localhost:5000/
